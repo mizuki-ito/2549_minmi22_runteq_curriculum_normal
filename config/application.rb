@@ -22,7 +22,7 @@ module RunteqNormal
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
-    #ジェネレーターのファイル、ルーティング作成制限
+    #ジェネレーターのファイル作成制限追加
     config.generators do |g|
       g.skip_routes true
       g.assets false

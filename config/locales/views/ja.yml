@@ -5,6 +5,8 @@ ja:
     logout: 'ログアウト'
     message:
       require_login: 'ログインしてください'
+      created: '%{item}を作成しました'
+      not_created: '%{item}を作成できませんでした'
   time:
     formats:
       default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
@@ -24,7 +26,7 @@ ja:
       password_forget: 'パスワードをお忘れの方はこちら'
     create:
       success: 'ログインしました'
-      fails: 'ログインに失敗しました'
+      fail: 'ログインに失敗しました'
     destroy:
       success: 'ログアウトしました'
   boards:
@@ -33,6 +35,7 @@ ja:
       no_board: '掲示板がありません'
     new:
       title: '掲示板作成'
+      create_board: '登録する'
     bookmarks:
       title: 'ブックマーク一覧'
   profiles:

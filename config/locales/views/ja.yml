@@ -7,11 +7,12 @@ ja:
       require_login: 'ログインしてください'
       created: '%{item}を作成しました'
       not_created: '%{item}を作成できませんでした'
-  time:
-    formats:
-      default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
-      long: "%Y/%m/%d %H:%M"
-      short: "%m/%d %H:%M"
+    post: '投稿'
+    time:
+      format:
+        default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
+        long: "%Y/%m/%d %H:%M"
+        short: "%m/%d %H:%M"
   users:
     new:
       title: 'ユーザー登録'
@@ -38,6 +39,8 @@ ja:
       create_board: '登録する'
     bookmarks:
       title: 'ブックマーク一覧'
+    show:
+      title: '掲示板詳細'
   profiles:
     show:
       title: 'プロフィール'

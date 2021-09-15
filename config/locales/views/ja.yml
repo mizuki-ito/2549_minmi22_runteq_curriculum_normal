@@ -43,6 +43,7 @@ ja:
       create_board: '登録する'
     bookmarks:
       title: 'ブックマーク一覧'
+      no_bookmark_boards: 'ブックマーク中の掲示板がありません'
     show:
       title: '掲示板詳細'
   profiles:
@@ -50,5 +51,10 @@ ja:
       title: 'プロフィール'
     edit:
       title: '掲示板編集'
+  bookmarks:
+    create:
+      success: 'ブックマークをしました'
+    destroy:
+      success: 'ブックマークを外しました'
 
       

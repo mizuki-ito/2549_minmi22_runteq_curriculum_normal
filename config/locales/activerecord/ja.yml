@@ -8,6 +8,8 @@ ja:
       user:
         last_name: '姓'
         first_name: '名'
+        full_name: '氏名'
+        avatar: 'アバター'
         email: 'メールアドレス'
         password: 'パスワード'
         password_confirmation: 'パスワード確認'

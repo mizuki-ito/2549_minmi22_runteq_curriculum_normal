@@ -4,6 +4,7 @@ ja:
     register: '登録'
     logout: 'ログアウト'
     search_word: '検索ワード'
+    edit : '編集'
     message:
       require_login: 'ログインしてください'
       created: '%{item}を作成しました'
@@ -12,6 +13,8 @@ ja:
       not_updated: "%{item}を更新できませんでした"
       deleted: "%{item}を削除しました"
       delete_confirm: '削除しますか？'
+      updated: '%{item}を更新しました'
+      not_updated: '%{item}を更新できませんでした'
     post: '投稿'
     time:
       format:
@@ -47,11 +50,13 @@ ja:
       no_bookmark_boards: 'ブックマーク中の掲示板がありません'
     show:
       title: '掲示板詳細'
+    edit:
+      title: '掲示板編集'
   profiles:
     show:
       title: 'プロフィール'
     edit:
-      title: '掲示板編集'
+      title: 'プロフィール編集'
   bookmarks:
     create:
       success: 'ブックマークをしました'

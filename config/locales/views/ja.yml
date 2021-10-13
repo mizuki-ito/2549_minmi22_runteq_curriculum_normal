@@ -62,5 +62,14 @@ ja:
       success: 'ブックマークをしました'
     destroy:
       success: 'ブックマークを外しました'
+  password_resets :
+    create:
+      success: 'パスワードリセット手順を送信しました'
+    new:
+      title: 'パスワードリセット申請'
+      submit: '送信'
+    edit:
+      title: 'パスワードリセット'
+
 
       

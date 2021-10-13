@@ -1,0 +1,15 @@
+<% content_for(:title, t('.title')) %>
+<div class="container">
+  <div class="row">
+    <div class = "col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <h1><%= t('.title')%></h1>
+      <%= form_with url: password_resets_path, local: true, method: :post do |f|%>
+        <div class ="field">
+          <%= f.label :email %><br/>
+          <%= f.text_field :email %>
+          <%= f.submit '送信' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= page_title(yield(:title), admin: true) %></title>
+<%= csrf_meta_tag %>
+<%= csp_meta_tag %>
+<!--マニフェストファイル(stylesheets/admin.scss)を以下で読み込む-->
+<%= stylesheet_link_tag 'admin', media: 'all' %> 
+<%= javascript_include_tag 'admin' %>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <%= render 'admin/shared/header' %>
+  <%= render 'admin/shared/sidebar'%>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <%= render 'shared/flash_message' %>
+    <%= yield %>
+  </div>
+
+  <%= render 'admin/shared/footer' %>
+</div>
+</body>
+</html>
